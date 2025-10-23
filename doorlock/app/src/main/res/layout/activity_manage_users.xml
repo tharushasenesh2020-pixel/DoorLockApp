@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ManageUsersActivity"
+    android:padding="16dp"
+    android:background="@drawable/img_f">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/text_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="🔐 App Access and Usage"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="#333333"
+            android:layout_marginBottom="12dp" />
+
+        <!-- 🔸 Current Users Section -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Current Users"
+            android:textStyle="bold"
+            android:textColor="#444"
+            android:textSize="18sp"
+            android:layout_marginTop="12dp" />
+
+        <ListView
+            android:id="@+id/list_users"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:divider="@android:color/darker_gray"
+            android:dividerHeight="1dp"
+            android:layout_marginBottom="20dp" />
+
+        <!-- Existing sections -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Access History"
+            android:textStyle="bold"
+            android:textColor="#444"
+            android:textSize="18sp"
+            android:layout_marginTop="12dp" />
+
+        <ListView
+            android:id="@+id/list_access"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:divider="@android:color/darker_gray"
+            android:dividerHeight="1dp"
+            android:layout_marginBottom="20dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PIN Change History"
+            android:textStyle="bold"
+            android:textColor="#444"
+            android:textSize="18sp"
+            android:layout_marginTop="12dp" />
+
+        <ListView
+            android:id="@+id/list_pin_changes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:divider="@android:color/darker_gray"
+            android:dividerHeight="1dp"
+            android:layout_marginBottom="20dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="App Usage History"
+            android:textStyle="bold"
+            android:textColor="#444"
+            android:textSize="18sp"
+            android:layout_marginTop="12dp" />
+
+        <ListView
+            android:id="@+id/list_usage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:divider="@android:color/darker_gray"
+            android:dividerHeight="1dp"
+            android:layout_marginBottom="20dp" />
+
+    </LinearLayout>
+</ScrollView>

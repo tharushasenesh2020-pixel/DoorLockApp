@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "731625133162",
+    "project_id": "smart-doorlock-8974d",
+    "storage_bucket": "smart-doorlock-8974d.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:731625133162:android:53a3a40426038447772613",
+        "android_client_info": {
+          "package_name": "com.example.doorlock"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBX3X-cPehklas2b5UzFHzKs3lXSLoh7SE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

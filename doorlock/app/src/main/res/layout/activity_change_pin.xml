@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img_f">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Change PIN"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="12dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Enter new PIN (4-8 digits)"
+            android:layout_marginTop="8dp"/>
+
+        <EditText
+            android:id="@+id/et_new_pin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberPassword"
+            android:hint="New PIN"
+            android:maxLength="8"
+            android:layout_marginTop="6dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Confirm PIN"
+            android:layout_marginTop="12dp"/>
+
+        <EditText
+            android:id="@+id/et_confirm_pin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberPassword"
+            android:hint="Confirm PIN"
+            android:maxLength="8"
+            android:layout_marginTop="6dp"/>
+
+        <Button
+            android:id="@+id/btn_save_pin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Save PIN"
+            android:layout_marginTop="20dp"/>
+
+    </LinearLayout>
+</ScrollView>

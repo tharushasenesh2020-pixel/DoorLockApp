@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="doorlock">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/doorlock.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

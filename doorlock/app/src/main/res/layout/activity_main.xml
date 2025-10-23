@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img_f"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:padding="24dp">
+
+        <!-- App Title -->
+        <TextView
+            android:id="@+id/tv_app_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Smart Door Lock"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textColor="#673AB7"
+            android:fontFamily="sans-serif-medium"
+            android:shadowColor="#000"
+            android:shadowDx="2"
+            android:shadowDy="2"
+            android:shadowRadius="3"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Bluetooth Status -->
+        <TextView
+            android:id="@+id/text_bt_status"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bluetooth: Not connected"
+            android:textAlignment="center"
+            android:textColor="#673AB7"
+            android:padding="10dp"
+            android:textSize="16sp"
+            android:layout_marginBottom="12dp"
+            android:elevation="4dp" />
+
+        <!-- Bluetooth Buttons -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginBottom="20dp">
+
+            <Button
+                android:id="@+id/btn_bt_connect"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="Connect HC-05"
+                android:backgroundTint="#4CAF50"
+                android:textColor="#FFFFFF"
+                android:layout_marginEnd="8dp"
+                android:fontFamily="sans-serif-medium"
+                android:elevation="4dp" />
+
+            <Button
+                android:id="@+id/btn_bt_disconnect"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="Disconnect"
+                android:backgroundTint="#E53935"
+                android:textColor="#FFFFFF"
+                android:fontFamily="sans-serif-medium"
+                android:elevation="4dp" />
+        </LinearLayout>
+
+        <!-- User Info -->
+        <TextView
+            android:id="@+id/user_details"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Welcome, User"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#673AB7"
+            android:layout_marginBottom="25dp"
+            android:padding="12dp"
+            android:elevation="3dp" />
+
+        <!-- Control Buttons -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/btn_put_pin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Enter PIN to Unlock"
+                android:backgroundTint="#673AB7"
+                android:textColor="#FFFFFF"
+                android:layout_marginBottom="15dp"
+                android:fontFamily="sans-serif-medium"
+                android:elevation="5dp"
+                android:padding="10dp" />
+
+            <Button
+                android:id="@+id/btn_check_status"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Check Lock Status"
+                android:backgroundTint="#673AB7"
+                android:textColor="#FFFFFF"
+                android:layout_marginBottom="15dp"
+                android:fontFamily="sans-serif-medium"
+                android:elevation="5dp"
+                android:padding="10dp" />
+
+            <Button
+                android:id="@+id/btn_manage_users"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Manage Users"
+                android:backgroundTint="#673AB7"
+                android:textColor="#FFFFFF"
+                android:layout_marginBottom="15dp"
+                android:fontFamily="sans-serif-medium"
+                android:elevation="5dp"
+                android:padding="10dp" />
+
+            <Button
+                android:id="@+id/settings"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Settings"
+                android:backgroundTint="#673AB7"
+                android:textColor="#FFFFFF"
+                android:layout_marginBottom="25dp"
+                android:fontFamily="sans-serif-medium"
+                android:elevation="5dp"
+                android:padding="10dp" />
+        </LinearLayout>
+
+        <!-- Logout -->
+        <Button
+            android:id="@+id/logOut"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Log Out"
+            android:backgroundTint="#9E9E9E"
+            android:textColor="#000000"
+            android:elevation="3dp"
+            android:padding="10dp"
+            android:fontFamily="sans-serif-medium" />
+
+    </LinearLayout>
+</ScrollView>
