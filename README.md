@@ -5,18 +5,6 @@ A Bluetooth-based Smart Door Lock system built as an embedded systems project. T
 
 ---
 
-## 📱 Screenshots
-
-| Home (Admin) | PIN Entry | Lock Status |
-|---|---|---|
-| ![Home](screenshots/home_admin.png) | ![PIN](screenshots/pin_entry.png) | ![Status](screenshots/lock_status.png) |
-
-| Manage Users | Settings | Change PIN |
-|---|---|---|
-| ![Users](screenshots/manage_users.png) | ![Settings](screenshots/settings.png) | ![Change PIN](screenshots/change_pin.png) |
-
----
-
 ## ✨ Features
 
 ### 🔑 Role-Based Access
